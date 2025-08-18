@@ -4,7 +4,6 @@ import os
 
 def loggs():
     logs_folder = Path('logs')
-    print(logs_folder)
     logs_folder.mkdir(exist_ok=True) # creating catalogues
     
     logs_file = logs_folder / 'new_log.txt'
